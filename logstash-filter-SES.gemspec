@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'logstash-filter-SES'
-  s.version = '1.0.0'
+  s.version = '2.0.0'
   s.licenses = ['Stormshield']
   s.summary = "SES filter."
   s.description = "SES filter"
@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.metadata = { "logstash_plugin" => "true", "logstash_group" => "filter" }
 
   # Gem dependencies
-  s.add_runtime_dependency "logstash-core", ">= 2.0.0", "< 3.0.0"
-  s.add_development_dependency 'logstash-devutils'
+  s.add_runtime_dependency "logstash-core-plugin-api", "~> 2.0"
+  s.add_development_dependency "logstash-devutils", "~> 1.3", ">= 1.3.1"
 end
