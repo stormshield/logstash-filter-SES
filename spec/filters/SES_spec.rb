@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-require 'spec_helper'
+require 'logstash/devutils/rspec/spec_helper'
 require 'logstash/filters/SES'
 
 describe LogStash::Filters::SES do
