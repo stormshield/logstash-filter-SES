@@ -4,9 +4,9 @@ Gem::Specification.new do |s|
   s.licenses = ['Stormshield']
   s.summary = "SES filter."
   s.description = "SES filter"
-  s.authors = ["Stormshield"]
+  s.authors = ["Apache License (2.0)"]
   s.email = 'svc@stormshield.eu'
-  s.homepage = "http://www.stormshield.eu"
+  s.homepage = "https://www.stormshield.eu"
   s.require_paths = ["lib"]
 
   # Files
